@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
   "author": "Mingfun Wong <mingfun.wong.chn@gmail.com>",
   "license": "MIT",
   "dependencies": {
