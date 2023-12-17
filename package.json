@@ -1,0 +1,12 @@
+{
+  "name": "@mingfunwong/fibosjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "Mingfun Wong <mingfun.wong.chn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eosjs": "^22.1.0"
+  }
+}
