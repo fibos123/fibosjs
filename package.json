@@ -1,14 +1,29 @@
 {
   "name": "@mingfunwong/fibosjs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "version": "1.1.0",
+  "description": "A patched version of eosjs with FIBOS compatibility",
+  "type": "module",
+  "main": "./src/index.mjs",
   "scripts": {
-    "publish": "npm publish --access=public"
+    "publish": "npm publish --access=public",
+    "test": "node test/test.js"
   },
   "author": "Mingfun Wong <mingfun.wong.chn@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "eosjs": "^22.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mingfunwong/fibosjs.git"
+  },
+  "keywords": [
+    "fibos",
+    "blockchain",
+    "FO"
+  ],
+  "bugs": {
+    "url": "https://github.com/mingfunwong/fibosjs/issues"
+  },
+  "homepage": "https://github.com/mingfunwong/fibosjs#readme"
 }

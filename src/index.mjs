@@ -1,11 +1,11 @@
-import { Api } from 'eosjs/dist/eosjs-api';
-import * as ApiInterfaces from 'eosjs/dist/eosjs-api-interfaces';
-import { JsonRpc } from 'eosjs/dist/eosjs-jsonrpc';
-import numeric from 'eosjs/dist/eosjs-numeric';
-import * as RpcInterfaces from 'eosjs/dist/eosjs-rpc-interfaces';
-import { RpcError } from 'eosjs/dist/eosjs-rpcerror';
-import * as Serialize from 'eosjs/dist/eosjs-serialize';
-import { JsSignatureProvider } from "eosjs/dist/eosjs-jssig";
+import { Api } from 'eosjs/dist/eosjs-api.js';
+import * as ApiInterfaces from 'eosjs/dist/eosjs-api-interfaces.js';
+import { JsonRpc } from 'eosjs/dist/eosjs-jsonrpc.js';
+import numeric from 'eosjs/dist/eosjs-numeric.js';
+import * as RpcInterfaces from 'eosjs/dist/eosjs-rpc-interfaces.js';
+import { RpcError } from 'eosjs/dist/eosjs-rpcerror.js';
+import * as Serialize from 'eosjs/dist/eosjs-serialize.js';
+import { JsSignatureProvider } from 'eosjs/dist/eosjs-jssig.js';
 
 // https://github.com/FIBOSIO/fibos.js/blob/505c0c35aaf1b62c8dd632cf252e9a1b7d1eba18/lib/patch_numeric.js
 numeric.prefix = "FO";
